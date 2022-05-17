@@ -16,6 +16,7 @@ button {
     font-size: 30px;
     font-weight: bold;
     text-shadow: 3px 1px white;
+    border: 0;
 }
 
 .title {
@@ -39,7 +40,50 @@ button {
     height: 100px;
     background: lightgrey;
     border-radius: 5px;
-    transition: width 1s;
+    transition: 1s;
     background: radial-gradient(circle, rgba(252, 70, 107, 1) 0%, rgba(63, 94, 251, 1) 100%);
     border: 0;
+}
+
+#countries:hover {
+    background: blue;
+    width: 200px;
+    height: 100px;
+    transform: rotate(180deg);
+    transition: 4s;
+    background: lightgrey;
+    background: radial-gradient(circle, rgba(252, 70, 107, 1) 0%, rgba(63, 94, 251, 1) 100%);
+    border: 0;
+}
+
+#flowers {
+    transition: 1.5s;
+}
+
+#flowers:hover {
+    transform: rotate(720deg);
+    background: radial-gradient(circle, rgba(207, 255, 0, 1) 0%, rgba(108, 46, 233, 1) 100%);
+    border-radius: 10% 60%;
+    width: 170px;
+    height: 80px;
+}
+
+#cars:hover {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    transition: 0.2s;
+    transform: rotate(90deg);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(29, 60, 253, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    font-size: 40px;
+    color: rgb(17, 39, 151);
+}
+
+#random:hover {
+    transform: rotate(50deg);
+    transition: all 1.5s linear;
+    background: rgb(194, 255, 15);
+    background: linear-gradient(90deg, rgba(194, 255, 15, 1) 0%, rgba(217, 43, 43, 1) 50%, rgba(0, 205, 75, 1) 100%);
 }
