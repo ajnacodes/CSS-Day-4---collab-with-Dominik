@@ -1,15 +1,35 @@
-                                                    .navbar {
-                                                        background-color: black;
-                                                        display: flex;
-                                                        justify-content: space-around;
-                                                        height: 115px;
-                                                    }
-                                                    
-                                                    button {
-                                                        width: 250px;
-                                                        height: 70px;
-                                                        background-color: rgba(235, 15, 154, 0.758);
-                                                        margin-top: 20px;
-                                                        margin-left: -30px;
-                                                        margin-right: -30px;
-                                                    }
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 115px;
+}
+
+button {
+    width: 250px;
+    height: 70px;
+    background-color: rgba(235, 15, 154, 0.758);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    margin-top: 20px;
+    margin-left: -30px;
+    margin-right: -30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 1px white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    background: rgb(248, 5, 159);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.bgimage {
+    display: flex;
+    justify-content: center;
+    background-image: url("./image.jpg");
+    background-color: black;
+    width: 1648px;
+    height: 750px;
+}
