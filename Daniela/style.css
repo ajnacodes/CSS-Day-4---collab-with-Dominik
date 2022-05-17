@@ -1,14 +1,15 @@
                                                     .navbar {
-                                                    background-color: black;
-                                                    display: flex;
-                                                    justify-content: space-around;
-                                                    height: 115px;
-                                                }
-                                                
-                                                button {
-                                                    width: 250px;
-                                                    height: 70px;
-                                                    background-color: rgba(235, 15, 154, 0.758);
-                                                    margin-top: 20px;
-                                                    margin-left: -30px;
-                                                    margin-right: -30px;
+                                                        background-color: black;
+                                                        display: flex;
+                                                        justify-content: space-around;
+                                                        height: 115px;
+                                                    }
+                                                    
+                                                    button {
+                                                        width: 250px;
+                                                        height: 70px;
+                                                        background-color: rgba(235, 15, 154, 0.758);
+                                                        margin-top: 20px;
+                                                        margin-left: -30px;
+                                                        margin-right: -30px;
+                                                    }
